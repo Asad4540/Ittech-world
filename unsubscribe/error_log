@@ -1,0 +1,16 @@
+[19-Apr-2024 19:29:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'a1642cow_curvemetrics.unsubscribed_users' doesn't exist in /home1/a1642cow/curvemetrics.co/unsubscribe/insert-unsubscribe.php:30
+Stack trace:
+#0 /home1/a1642cow/curvemetrics.co/unsubscribe/insert-unsubscribe.php(30): mysqli->prepare('INSERT INTO uns...')
+#1 {main}
+  thrown in /home1/a1642cow/curvemetrics.co/unsubscribe/insert-unsubscribe.php on line 30
+[19-Apr-2024 19:31:48 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home1/a1642cow/curvemetrics.co/unsubscribe/access-denied.php on line 3
+[19-Apr-2024 19:46:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in /home1/a1642cow/curvemetrics.co/unsubscribe/insert-unsubscribe.php:34
+Stack trace:
+#0 /home1/a1642cow/curvemetrics.co/unsubscribe/insert-unsubscribe.php(34): mysqli_stmt->execute()
+#1 {main}
+  thrown in /home1/a1642cow/curvemetrics.co/unsubscribe/insert-unsubscribe.php on line 34
+[22-Apr-2024 12:34:47 UTC] PHP Fatal error:  Uncaught ArgumentCountError: The number of elements in the type definition string must match the number of bind variables in /home1/a1642cow/curvemetrics.co/unsubscribe/insert-unsubscribe.php:44
+Stack trace:
+#0 /home1/a1642cow/curvemetrics.co/unsubscribe/insert-unsubscribe.php(44): mysqli_stmt->bind_param('ssss', 'akshay', 'sir', 'vipuk@mailinato...', 'https://curveme...', 'Receiving too m...')
+#1 {main}
+  thrown in /home1/a1642cow/curvemetrics.co/unsubscribe/insert-unsubscribe.php on line 44
